@@ -1,0 +1,57 @@
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.name1{
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.container .btn {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 2px solid #002E5A;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.expand{
+  margin-right: 8px ;
+  font-size: 14px;
+  color: #FFCB00;
+}
+
+.drop{
+  color: #FFCB00;
+}
+
+img{
+    width: 100%;
+}
+
+.rent{
+  background-color: #002E5A;
+  color: #FFCB00;
+}
+
+.btn3{
+  font-size: 20px;
+}
+
+
+
+.date{
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+

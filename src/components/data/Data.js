@@ -12,184 +12,107 @@ export const nav = [
     text: "about",
     path: "/about",
   },
+]
 
- 
-  
-]
-export const featured = [
+export const locations = [
   {
-    cover: "../images/hero/h1.png",
-    name: "Family House",
-    total: "122 Property",
+    value: 'Berlin',
+    label: 'Berlin'
   },
   {
-    cover: "../images/hero/h2.png",
-    name: "House & Villa",
-    total: "155 Property",
+    value: 'Munich',
+    label: 'Munich'
   },
   {
-    cover: "../images/hero/h3.png",
-    name: "Apartment",
-    total: "300 Property",
+    value: 'Stuttgart',
+    label: 'Stuttgart'
   },
   {
-    cover: "../images/hero/h4.png",
-    name: "Office & Studio",
-    total: "80 Property",
+    value: 'Frankfurt',
+    label: 'Frankfurt'
   },
   {
-    cover: "../images/hero/h6.png",
-    name: "Villa & Condo",
-    total: "80 Property",
-  },
-]
+    value: 'Hamburg',
+    label: 'Hamburg'
+}];
+
 export const list = [
   {
     id: 1,
-    cover: "../images/list/p-1.png",
-    name: "Red Carpet Real Estate",
-    location: "210 Zirak Road, Canada",
+    cover: "../images/list/ig-1.jpg",
+    name: "West-Wg",
+    location: "11 Neckarstadt, Berlin",
+    city: "Berlin",
     category: "For Rent",
-    price: "$3,700",
+    price: "€ 750",
+    date: '01/05/2023',
     type: "Studio Apartment",
   },
   {
     id: 2,
-    cover: "../images/list/p-2.png",
-    name: "Fairmount Properties",
-    location: "5698 Zirak Road, NewYork",
+    cover: "../images/list/ig-3.jpg",
+    name: "Center Properties",
+    location: "HDF straße, Munich",
+    city: "Munich",
     category: "For Rent",
-    price: "$9,750",
+    price: "€ 650",
+    date: '01/05/2023',
     type: "3 Room WG",
   },
   {
     id: 3,
-    cover: "../images/list/p-7.png",
-    name: "The Real Estate Corner",
-    location: "5624 Mooker Market, USA",
+    cover: "../images/list/ig-4.jpg",
+    name: "Z-Estate Corner",
+    location: "28 Micheal Market, Berlin",
+    city: "Berlin",
     category: "For Rent",
-    price: "$5,860",
+    price: "€ 860",
+    date: '01/04/2023',
     type: "Offices",
   },
   {
     id: 4,
-    cover: "../images/list/p-4.png",
-    name: "Herringbone Realty",
-    location: "5621 Liverpool, London",
+    cover: "../images/list/ig-5.jpg",
+    name: "Harry Zimmer",
+    location: "21 Offenbach, Frankfurt",
+    city: "Frankfurt",
     category: "For Rent",
-    price: "$7,540",
+    price: "€ 540",
+    date: '01/05/2023',
     type: "Homes & Villas",
   },
   {
     id: 5,
-    cover: "../images/list/p-5.png",
-    name: "Brick Lane Realty",
-    location: "210 Montreal Road, Canada",
+    cover: "../images/list/ig-6.jpg",
+    name: "Brick Lane Apartment",
+    location: "21 Montreal straße, Frankfurt",
+    city: "Frankfurt",
     category: "For Rent",
-    price: "$4,850",
+    price: "€ 950",
+    date: '01/05/2023',
     type: "Commercial",
   },
   {
     id: 6,
-    cover: "../images/list/p-6.png",
-    name: "Banyon Tree Realty",
-    location: "210 Zirak Road, Canada",
+    cover: "../images/list/ig-6.jpg",
+    name: "Banyon Tree WG",
+    location: "52 Siemensstraße, Hamburg",
+    city: "Hamburg",
     category: "For Rent",
-    price: "$2,742",
+    price: "€ 742",
+    date: '01/05/2023',
+    type: "Apartment",
+  },
+  {
+    id: 7,
+    cover: "../images/list/ig-2.jpg",
+    name: "WG Realty",
+    location: "Hausstraße Road, Stuttgart",
+    city: "Stuttgart",
+    category: "For Rent",
+    price: "€ 1.242",
+    date: '01/05/2023',
     type: "Apartment",
   },
 ]
 
-export const price = [
-  {
-    plan: "Basic",
-    price: "29",
-    ptext: "per user, per month",
-    list: [
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "120GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "5GB Cloud Storage",
-      },
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Personal Help Support" },
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Enterprise SLA" },
-    ],
-  },
-  {
-    best: "Best Value",
-    plan: "Standard",
-    price: "49",
-    ptext: "per user, per month",
-    list: [
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "150GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "10GB Cloud Storage",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
-      },
-      {
-        change: "color",
-        icon: <i class='fa-solid fa-x'></i>,
-        text: "Enterprise SLA",
-      },
-    ],
-  },
-  {
-    plan: "Platinum",
-    price: "79",
-    ptext: "2 user, per month",
-    list: [
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "100% Uptime Guarantee",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "200GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "20GB Cloud Storage",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Enterprise SLA",
-      },
-    ],
-  },
-]
-export const footer = [
-  {
-    title: "LAYOUTS",
-    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
-  },
-  {
-    title: "ALL SECTIONS",
-    text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
-  },
-  {
-    title: "COMPANY",
-    text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
-  },
-]

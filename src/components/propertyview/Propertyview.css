@@ -1,0 +1,38 @@
+.property img{
+    height: 80vh;
+}
+
+.text1 {
+    padding-top: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+ .info {
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #002E5A;
+    background-color: transparent;
+
+}
+
+.language-dropdown{
+    border: 1.5px solid #002E5A;
+    background-color: #ffcb00;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #002E5A;
+    padding: 10px;
+}
+
+
+
+.verify{
+    font-size: 20px;
+    color: #ffcb00;
+
+}
+
+

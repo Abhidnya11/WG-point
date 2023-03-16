@@ -1,16 +1,15 @@
-
 import React from "react"
-import Header from "../src/components/common/header/Header"
+import Header from "../common/header/Header"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Home from "../src/components/home/Home"
+import Home from "../home/Home"
 
-import About from "../src/components/about/About"
-import Properties from "../src/components/properties/Properties"
-import PropertyView from "../src/components/propertyview/Propertyview"
-import "./App.css"
+import About from "../about/About"
+import Properties from "../properties/Properties"
+import PropertyView from "../propertyview/Propertyview"
 
 
-function App() {
+
+const Pages = () => {
   return (
     <>
       <BrowserRouter>
@@ -28,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default Pages
