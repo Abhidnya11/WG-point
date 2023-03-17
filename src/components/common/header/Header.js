@@ -15,7 +15,7 @@ const Header = () => {
       <header>
         <div className='container flex'>
           <div className='logo'>
-           <h1>WG-point<MdLocationPin className="drop"/></h1>
+           <h1 data-testid= 'logo' >WG-point<MdLocationPin className="drop"/></h1>
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
@@ -28,7 +28,7 @@ const Header = () => {
           </div>
           <div className='button flex'>
             
-            <button className='btn1'>
+            <button className='btn1' data-testid= 'login-btn'>
               <i><BsFillPersonFill className="login"/> </i> Login
             </button>
           </div>

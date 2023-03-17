@@ -10,9 +10,10 @@ import PropertyView from "../src/components/propertyview/Propertyview"
 import "./App.css"
 
 
-function App() {
+const App = () => {
+  
   return (
-    <>
+    <div data-testid ="App">
       <BrowserRouter>
         <Header />
         <Routes>
@@ -24,7 +25,8 @@ function App() {
         </Routes>
         
       </BrowserRouter>
-    </>
+      </div>
+    
   )
 }
 
