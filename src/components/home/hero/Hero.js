@@ -49,7 +49,7 @@ const Hero = ({updateLocation}) => {
               <input type='text' />
             </div>
             
-            <button type='submit' className='search'>
+            <button type='submit' className='search' data-testid="button-cl"> 
               <BsSearch/>Search
             </button>
           </form>

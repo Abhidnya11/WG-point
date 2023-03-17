@@ -26,7 +26,7 @@ const RecentCard = ({ location }) => {
               <div className='img'>
               <div class="container">
               <img src={cover} alt='' />
-             <button class="btn"><GiExpand className="expand"/>VR View</button>
+             <button data-testid="btn-VR" className="btn"><GiExpand className="expand"/>VR View</button>
              </div>
               </div>
               <div className='text'>
@@ -42,7 +42,7 @@ const RecentCard = ({ location }) => {
               </div>
               <div className='button flex'>
                 <div>
-                <button className='btn3' >{price}</button> <label htmlFor=''>per month</label>
+                <button data-testid='btn-price' className='btn3' >{price}</button> <label htmlFor=''>per month</label>
                 </div>
                 <span>{type}</span>
               </div>
